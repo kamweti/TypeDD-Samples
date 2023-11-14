@@ -1,0 +1,155 @@
+package TypeDDSamples
+-- version =
+-- authors =
+-- maintainers =
+-- license =
+-- brief =
+-- readme =
+-- homepage =
+-- sourceloc =
+-- bugtracker =
+
+-- the Idris2 version required (e.g. langversion >= 0.5.1)
+-- langversion
+
+-- packages to add to search path
+-- depends =
+
+-- modules to install
+modules = Chapter1.FCTypes,
+          Chapter1.Hello,
+          Chapter1.HelloHole,
+          Chapter10.DLFail,
+          Chapter10.DataStore,
+          Chapter10.DescribeList,
+          Chapter10.DescribeList2,
+          Chapter10.Exercises.DataStore,
+          Chapter10.IsSuffix,
+          Chapter10.MergeSort,
+          Chapter10.MergeSortView,
+          Chapter10.Reverse,
+          Chapter10.ReverseSnoc,
+          Chapter10.Shape,
+          Chapter10.SnocList,
+          Chapter10.TestStore,
+          Chapter11.Arith,
+          Chapter11.ArithCmd,
+          Chapter11.ArithCmdDo,
+          Chapter11.ArithTotal,
+          Chapter11.Greet,
+          Chapter11.InfIO,
+          Chapter11.InfList,
+          Chapter11.Label,
+          Chapter11.RunIO,
+          Chapter11.StreamFail,
+          Chapter11.Streams,
+          Chapter12.ArithState,
+          Chapter12.DataStore,
+          Chapter12.Record,
+          Chapter12.State,
+          Chapter12.StateMonad,
+          Chapter12.Traverse,
+          Chapter12.TreeLabel,
+          Chapter12.TreeLabelState,
+          Chapter12.TreeLabelType,
+          Chapter13.Door,
+          Chapter13.Stack,
+          Chapter13.StackIO,
+          Chapter13.Vending,
+          Chapter14.ATM,
+          Chapter14.DoorJam,
+          Chapter14.Hangman,
+          Chapter15.AdderChannel,
+          Chapter15.ListProc,
+          Chapter15.Process,
+          Chapter15.ProcessIFace,
+          Chapter15.ProcessLib,
+          Chapter15.ProcessLoop,
+          Chapter15.ProcessState,
+          Chapter15.WordCount,
+          Chapter2.AveMain,
+          Chapter2.Average,
+          Chapter2.Double,
+          Chapter2.Generic,
+          Chapter2.HOF,
+          Chapter2.Partial,
+          Chapter2.Reverse,
+          Chapter3.IsEven,
+          Chapter3.Matrix,
+          Chapter3.VecSort,
+          Chapter3.Vectors,
+          Chapter3.WordLength,
+          Chapter3.XOR,
+          Chapter4.BSTree,
+          Chapter4.DataStore,
+          Chapter4.Direction,
+          Chapter4.Generic,
+          Chapter4.Picture,
+          Chapter4.Shape,
+          Chapter4.SumInputs,
+          Chapter4.Tree,
+          Chapter4.TryIndex,
+          Chapter4.Vect,
+          Chapter4.Vehicle,
+          Chapter5.DepPairs,
+          Chapter5.Do,
+          Chapter5.Hello,
+          Chapter5.Loops,
+          Chapter5.PrintLength,
+          Chapter5.ReadNum,
+          Chapter5.ReadVect,
+          Chapter6.Adder,
+          Chapter6.DataStore,
+          Chapter6.DataStoreHoles,
+          Chapter6.Maybe,
+          Chapter6.Printf,
+          Chapter6.TypeFuns,
+          Chapter6.TypeSynonyms,
+          Chapter7.Album,
+          Chapter7.Eq,
+          Chapter7.Expr,
+          Chapter7.Fold,
+          Chapter7.Tree,
+          Chapter8.AppendVec,
+          Chapter8.CheckEqDec,
+          Chapter8.CheckEqMaybe,
+          Chapter8.EqNat,
+          Chapter8.ExactLength,
+          Chapter8.ExactLengthDec,
+          Chapter8.ReverseVec,
+          Chapter8.TCVects,
+          Chapter8.Void,
+          Chapter9.Elem,
+          Chapter9.ElemBool,
+          Chapter9.ElemType,
+          Chapter9.Hangman,
+          Chapter9.RemoveElem,
+          README
+
+-- main file (i.e. file to load at REPL)
+-- main =
+
+-- name of executable
+-- executable =
+-- opts =
+sourcedir = "."
+-- builddir =
+-- outputdir =
+
+-- script to run before building
+-- prebuild =
+
+-- script to run after building
+-- postbuild =
+
+-- script to run after building, before installing
+-- preinstall =
+
+-- script to run after installing
+-- postinstall =
+
+-- script to run before cleaning
+-- preclean =
+
+-- script to run after cleaning
+-- postclean =
