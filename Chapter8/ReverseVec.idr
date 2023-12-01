@@ -1,15 +1,17 @@
 import Data.Vect
 
-
-myReverse1 : Vect n a -> Vect n a
-myReverse1 [] = []
-myReverse1 {n = S k} (x :: xs)
-        = let result = myReverse1 xs ++ [x] in
-              rewrite plusCommutative 1 k in result
-
-myReverse : Vect n a -> Vect n a
+myReverse : Vect len item -> Vect len item
 myReverse [] = []
-myReverse (x :: xs) = reverseProof (myReverse xs ++ [x])
-  where
-    reverseProof : Vect (k + 1) a -> Vect (S k) a
-    reverseProof {k} result = rewrite plusCommutative 1 k in result
+myReverse {len = S len} (x :: xs) =
+    let rev_xs = myReverse xs
+        result = rev_xs ++ [x]
+            in
+                rewrite (plusCommutative 1 len)
+            in result
+
+reverseProof : Vect (plus len 1) item -> Vect (S len) item
+reverseProof {len} ys = rewrite plusCommutative 1 len in ys
+
+myReverseSecondAttempt : Vect len item -> Vect len item
+myReverseSecondAttempt [] = []
+myReverseSecondAttempt (x :: xs) = reverseProof (myReverseSecondAttempt xs ++ [x])
